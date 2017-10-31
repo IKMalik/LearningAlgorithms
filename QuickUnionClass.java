@@ -31,7 +31,7 @@ public class QuickUnionClass {
 
     private void union(int p, int q)
     {
-        if (!this.checkSameRoot(p,q))
+        if (this.getRoot(p) != this.getRoot(q))
         {
             this.N.set(p, this.N.get(q));
         }
@@ -40,18 +40,4 @@ public class QuickUnionClass {
             System.out.println("Already connected");
         }
     }
-
-    private boolean checkSameRoot(int p, int q)
-    {
-        int proot = this.getRoot(p);
-        int qroot = this.getRoot(q);
-
-        return (proot == qroot);
-    }
-
-
-
-
-
-
 }
