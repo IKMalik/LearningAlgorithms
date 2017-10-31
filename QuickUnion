@@ -1,2 +1,0 @@
-import java.util.*; 
-public class QuickUnion{  ArrayList<Integer> N = new ArrayList<Integer>();      public static void main(String[] args)  {  }    private void Find(int a , int b)  {      }    private boolean Root(int node)  {    return (this.N.get(node).equals(node));  }    private void init(int A)  {    for (int i=0; i<A; i++)    {      this.N.add(i);    }  }  }
