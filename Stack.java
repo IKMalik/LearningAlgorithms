@@ -9,7 +9,7 @@ class stack{
         node nextnode;
 
         node(String id){
-
+            
             this.id = id;
         }
     }
@@ -18,13 +18,9 @@ class stack{
         stack astack = new stack();
         astack.push("bob");
         astack.push("cob");
-        astack.push("dob");
         astack.pop();
         astack.pop();
         astack.pop();
-        astack.pop();
-
-
     }
 
     public void push(String id){
@@ -51,4 +47,3 @@ class stack{
 
     }
 }
-
