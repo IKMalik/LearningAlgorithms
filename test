@@ -1,0 +1,34 @@
+import java.util.*;
+
+public class QuickUnion{
+  
+  int[] numbers;
+
+  public QuickUnion(int size){
+    
+    numbers = new int[size];
+    for (int value=0; value<size; value++){
+    	this.numbers[value] = value;
+    System.out.println(Arrays.toString(numbers));
+    }
+  
+  }
+  
+  private union(int aval, int bval){
+  
+  }
+  
+  private getRoot(){
+  }
+  
+  private compare(){
+  }
+  
+  private isConnected(){}
+  
+  public static void main(String args[]){
+  	QuickUnion bob = new QuickUnion(5);
+  
+  }
+
+}
